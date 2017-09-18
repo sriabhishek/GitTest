@@ -49,4 +49,8 @@
     <ShowTreeLines value="True" />
     <ShowGridLines value="True" />
   </TreeDocument>
+  <Debugger>
+    <Runtime path="" />
+    <License path="" />
+  </Debugger>
 </Designer>
