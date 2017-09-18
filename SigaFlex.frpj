@@ -5,7 +5,9 @@
     <Description></Description>
     <Folders />
   </Project>
-  <Files />
+  <Files>
+    <Add rule="DecisionTable1.xml" help="DecisionTable1.xml" handler="FlexRule.Designer.DecisionTable.SpreadSheetFormHandler, FlexRule.Designer.DecisionTable, Version=1.0.0.0, Culture=neutral, PublicKeyToken=dade78f156180a92" uid="a8cfc6bd-aedf-476a-bb09-07ba6b36988b" />
+  </Files>
   <References />
   <ProjectProviders>
     <Builders>
