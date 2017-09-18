@@ -1,0 +1,43 @@
+<Designer>
+  <Project>
+    <Name>SigaFlex</Name>
+    <Path>D:\Samples</Path>
+    <Description></Description>
+    <Folders />
+  </Project>
+  <Files />
+  <References />
+  <ProjectProviders>
+    <Builders>
+      <Add assembly="FlexRule.Designer.ProceduralEngine.dll" type="FlexRule.Designer.ProceduralEngine.ElementItemBuilderBuiltinElementStrategy" description="Default commands of procedural rule" />
+      <Add assembly="FlexRule.Designer.FlowEngine.dll" type="FlexRule.Designer.RuleFlow.ElementItemBuilderBuiltinElementStrategy" description="Default nodes of Flow engine" />
+      <Add assembly="FlexRule.Designer.ValidationEngine.dll" type="FlexRule.Designer.ValidationEngine.ValidationEngineBuilderStrategy" description="Validation rule document" />
+      <Add assembly="FlexRule.Designer.ValidationEngine.dll" type="FlexRule.Designer.ValidationEngine.ValidatorBuilderStrategy" description="Validation engine 'Validator' command" />
+      <Add assembly="FlexRule.Designer.Core.dll" type="FlexRule.Designer.Notifications.NotificationBuilderStrategy" description="Notification command" />
+      <Add assembly="FlexRule.Designer.Deployment.dll" type="FlexRule.Designer.Deployment.DeploymentBuilderStrategy" description="Deployment Profile document" />
+      <Add assembly="FlexRule.Designer.DecisionTable.dll" type="FlexRule.Designer.DecisionTable.ElementItemBuilderBuiltinElementStrategy" description="Decision Table document builder" />
+      <Add assembly="FlexRule.Designer.DecisionTable.dll" type="FlexRule.Designer.DecisionTable.CallDecisionTableBuilderStrategy" description="Decision table engine call command" />
+      <Add assembly="FlexRule.Designer.Database.dll" type="FlexRule.Designer.Database.DatabaseBuilderStrategy" description="Commands to connect to a database" />
+      <Add assembly="FlexRule.Designer.Database.dll" type="FlexRule.Designer.Database.DataBuilderStrategy" description="Data processing toolbox" />
+      <Add assembly="FlexRule.Designer.DMN.dll" type="FlexRule.Designer.DMN.DecisionReqDiagramBuilderStrategy" description="Decision Modeling Notation (DMN)" />
+      <Add assembly="FlexRule.Designer.DMN.dll" type="FlexRule.Designer.DMN.InformationReqDiagramBuilderStrategy" description="Information Requirement Diagram" />
+      <Add assembly="FlexRule.Designer.DMN.dll" type="FlexRule.Designer.DMN.CallDrdBuilderStrategy" description="DMN command" />
+      <Add assembly="FlexRule.Designer.DMN.dll" type="FlexRule.Designer.IRD.CallIrdBuilderStrategy" description="IRD command" />
+      <Add assembly="FlexRule.Designer.FlowEngine.dll" type="FlexRule.Designer.RuleFlow.CallFlowBuilderStrategy" description="Subflow" />
+      <Add assembly="FlexRule.Designer.FlowEngine.dll" type="FlexRule.Designer.RuleFlow.Internet.InternetBuilderStrategy" description="Send Email" />
+      <Add assembly="FlexRule.Designer.NaturalLanguage.dll" type="FlexRule.Designer.NaturalLanguage.CallNaturalLanguageBuilderStrategy" description="NL command" />
+      <Add assembly="FlexRule.Designer.Tester.dll" type="FlexRule.Designer.Tester.TesterBuilderStrategy" description="TestCase document" />
+      <Add assembly="FlexRule.Designer.NaturalLanguage.dll" type="FlexRule.Designer.NaturalLanguage.ElementItemBuilderBuiltinElementStrategy" description="Natural language and Glossary document builder" />
+      <Add assembly="FlexRule.Designer.ResourceEditor.dll" type="FlexRule.Designer.ResourceEditor.Messages.ElementItemBuilderBuiltinElementStrategy" description="Resource editor commands" />
+      <Add assembly="FlexRule.Designer.DMN.dll" type="FlexRule.Designer.DMN.BoxedExpressionBuilderStrategy" description="Boxed Expression allows building reusable expressions across project" />
+      <Add assembly="FlexRule.Designer.FactConcepts.dll" type="FlexRule.Designer.FactConcepts.ConceptDiagramBuilderStrategy" description="Concept and Fact Types Model" />
+      <Add assembly="FlexRule.Designer.FlowEngine.dll" type="FlexRule.Designer.RuleFlow.DirectoryService.DirectoryServiceBuilderStrategy" description="Directory Service Integration" />
+    </Builders>
+  </ProjectProviders>
+  <Toolbox>
+    <Add name="FTP" />
+    <Add name="IO" />
+    <Add name="Processes" />
+    <Add name="Salesforce" />
+  </Toolbox>
+</Designer>
