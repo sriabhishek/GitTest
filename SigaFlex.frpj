@@ -40,4 +40,13 @@
     <Add name="Processes" />
     <Add name="Salesforce" />
   </Toolbox>
+  <TreeDocument>
+    <FollowIdent value="True" />
+    <ShowAttribute value="False" />
+    <ShowDescription value="False" />
+    <ShowType value="True" />
+    <ShowValue value="True" />
+    <ShowTreeLines value="True" />
+    <ShowGridLines value="True" />
+  </TreeDocument>
 </Designer>
