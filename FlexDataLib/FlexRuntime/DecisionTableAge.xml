@@ -1,0 +1,26 @@
+<DecisionTable name="DecisionTable">
+  <Declaration>
+    <Define name="EMP" type="FlexDataLib.EmpClass" assembly="FlexDataLib.dll" direction="In" />
+    <Using path="FlexDataLib.EmpClass" assembly="FlexDataLib.dll" />
+  </Declaration>
+  <Columns>
+    <Condition name="Condition1" discriminator="False" expression="EMP.EmpAge==$value" />
+    <Action name="Action4" expression="EMP.EmpSal=$value" />
+    <Name />
+    <Action name="Message" expression="$value" type="Notice" notice="Information" />
+  </Columns>
+  <Data>
+    <Row>
+      <Value>35</Value>
+      <Value>67000</Value>
+      <Value>R1</Value>
+      <Value>Vaalue matched with age 35</Value>
+    </Row>
+    <Row>
+      <Value>32</Value>
+      <Value>33211</Value>
+      <Value>R2</Value>
+      <Value>Vaalue matched with age 32</Value>
+    </Row>
+  </Data>
+</DecisionTable>
